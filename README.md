@@ -1,1 +1,1 @@
-# artium-team.github.io
+# Artium website
