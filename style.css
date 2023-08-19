@@ -1,7 +1,9 @@
 body {
     margin: 0;
-    padding: 0;
+    padding-bottom: 0;
     height: 100vh;
+    background-image: linear-gradient(to bottom, black, white);
+
 }
 #particles-js {
     background: black;
@@ -14,7 +16,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-	background: white;
+	background: #dbdbdb;
 }
 
 .top-left-container {
@@ -48,4 +50,54 @@ body {
     color: white;
     font-size: 20px;
     margin-top: 2.5vh;
+}
+
+.content-container {
+    display: flex; justify-content: center;
+    margin-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+.content-container #content-board {
+    border-radius: 15px 15px 15px 15px;
+    background-image: linear-gradient(to bottom right, rgb(47, 47, 47), white);
+    padding: 20px;
+
+    width: 80vw;
+    height: 150px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.content-container #content-board #duplicate {
+    border-radius: 15px 15px 15px 15px;
+    background-image: linear-gradient(to bottom right, rgb(47, 47, 47), white);
+    padding: 20px;
+    margin-top: 0;
+
+    width: 80vw;
+    height: 150px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.content-container #content-board #duplicate #text {
+    color: rgb(221, 221, 221);
+    float: left;
+    width: 45%;
+}
+
+.content-container #content-board #duplicate #text #description {
+    color: rgb(221, 221, 221);
+    float: left;
+    
+}
+
+.content-container #content-board #duplicate img {
+    float: right;
+    right: 0;
+    width: 200px;
+    height: 150px;
 }
