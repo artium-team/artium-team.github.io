@@ -1,39 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artium</title>
+    <title>Artium!</title>
+
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="favicon.ico">
 </head>
-<body>
-    <script src="main.js"></script>
 
-    <div id="particles-js">
-        <div class="top-left-container">
-            <h1>Artium</h1>
-        </div>
-        <div class="top-right-container">             
-            <h1>Test</h1>
-            <h1>Test</h1>
-            <h1>Test</h1>
+<body class="m-6">
+    <script src="app.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+
+    <div id="wrapper" class="w-full flex justify-center">
+        <div style="width: 600px;">
+            <zero-md src="markdown/main.md">
+                <template>
+                    <link rel="stylesheet"
+                        href="https://cdn.jsdelivr.net/gh/sindresorhus/github-markdown-css@4/github-markdown.min.css" />
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/PrismJS/prism@1/themes/prism.min.css" />
+                </template>
+
+                <script type="text/markdown">
+                    # <p align="center"> Artium </p>                    
+                    
+                    <img src="./img/Artium-Background.jpg">
+                    <p align="center" style="font-style: italic;"><a href="https://github.com/artium-team/NTP-Haunted-House" style="color: #24292e;">The Haunted House at NTP Junior Highschool</a></p>
+
+                    <hr/>
+
+                    <p style="text-align: justify;"> Artium is a group of teens who love coding and are passionate about solving real-world problems with artificial intelligence. We have many projects that aim to make a positive impact on society, such as tackling world hunger, improving education, and promoting sustainability. </p>
+
+                    ## 📙 Our Phlosophy
+                    **"For teens, by teens"** is our philosophy and code, tools are not the only things we open source!
+
+                    ## 💼 Our projects
+                    <p style="text-align: justify;"> Some of the projects that we are working on or have completed which you can involved in: </p>
+
+                    - <p style="font-style: italic; font-weight: 600;"><a href="https://github.com/artium-team/end-world-hunger" style="color: #24292e;">🍖 End World Hunger</a></p>
+                    <p style="text-align: justify;"> A website for you to join us in the fight to end world hunger. Learn about the causes and effects of hunger, and find out how you can help! 🍔 </p>
+                    - <p style="font-style: italic; font-weight: 600;"><a href="https://github.com/artium-team/workshop" style="color: #24292e;">🔨 Workshop</a></p>
+                    <p style="text-align: justify;"> Learn programming together by creating coding tutorials in our workshop! 🔨  </p>
+                    - <p style="font-style: italic; font-weight: 600;"><a href="https://github.com/artium-team/tim-bot" style="color: #24292e;">👽 Tim Bot</a></p>
+                    <p style="text-align: justify;"> A teen friend named Tim, who live in Europa, one of Jupiter's moon! 🤖  </p>
+                    - <p style="font-style: italic; font-weight: 600;"><a href="https://github.com/artium-team/axolotl" style="color: #24292e;">🦕 Axolotl</a></p>
+                    <p style="text-align: justify;"> Draw an axolotl, our mascot and submit a PR! 🦖 </p>
+                    - <p style="font-style: italic; font-weight: 600;"><a href="https://github.com/artium-team/Argoo" style="color: #24292e;">🧩 Argoo</a></p>
+                    <p style="text-align: justify;"> A web for class quizzes game but without phones! 🧩 </p>
+                    - <p style="font-style: italic; font-weight: 600;"><a href="https://github.com/artium-team/colorful" style="color: #24292e;">🖌️ Colorful</a></p>
+                    <p style="text-align: justify;"> A web that you can draw together like r/place! ✏️ </p>
+                    - <p style="font-style: italic; font-weight: 600;"><a href="https://github.com/artium-team/brainfuck-interpreter" style="color: #24292e;">🤯 Brainfuck Interpreter</a></p>
+                    <p style="text-align: justify;"> A simple Brainfuck interpreter written in C 🧠 </p>
+
+                    <br/>
+
+                    <p align="center" style="font-style: italic; font-weight: 600;"> Together, we can code for a better world. </p>
+                </script>
+            </zero-md>
         </div>
     </div>
-    <div class="content-container">
-        <div id="content-board">
-            <div id="duplicate">
-                <div id="text">
-                    <h1 id="title">VNScript</h1>
-                    <h3 id="descript">A Vietnamese version of Javascript</h3>
-                </div>                
-                <img src="images/vns.png">
-            </div>
-        </div>
-    </div>
 
-    <script src="js/particles/particles.js"></script>
-    <script src="js/particles/app.js"></script>
 </body>
+
 </html>
