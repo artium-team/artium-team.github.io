@@ -10,11 +10,12 @@
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
 </head>
 
-<body class="m-6">
+<body >
     <script src="app.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
 
+    <div class="m-6 mt-0 mb-0">
     <div id="wrapper" class="w-full flex justify-center">
         <div style="width: 600px;">
             <zero-md src="markdown/main.md">
@@ -62,6 +63,15 @@
             </zero-md>
         </div>
     </div>
+    </div>
+
+    <footer class="bg-gray-500 py-4 text-white text-center mt-6">
+        <p class="underline font-bold mb-3">Contact us:</p>
+        <ul class="flex justify-center gap-4 flex-wrap">
+            <li><a href="mailto:info@example.com" class="hover:text-gray-200">nguyengiabach1201@gmail.com</a></li>
+            <li><a href="tel:1-800-555-1212" id="contact" class="hover:text-gray-200">1-800-555-1212</a></li>
+        </ul>
+    </footer>
 
 </body>
 
